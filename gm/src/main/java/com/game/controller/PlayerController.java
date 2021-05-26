@@ -23,8 +23,9 @@ import java.util.Map;
 @RestController
 @RequestMapping("/rest")
 public class PlayerController {
+
     private final PlayerService playerService;
-    //private List<Player> players;
+
 
     @Autowired
     public PlayerController(PlayerService playerService) {
